@@ -7,7 +7,7 @@ In this folder the materials for the "A Computational Theory of Robust Localizat
 You can read the paper from this link:
 https://ieeexplore.ieee.org/abstract/document/9029819
 
-## Robust Control
+## Robust Control for Polygonal Environment
 In this folder you can find the related material to "Robust Planning and Control For Polygonal Environments via Linear Programming" paper. In this work we find the robust output-feedback controller on a cell decomposition of a polygonal environment by using Control Lyapunov Function and Control Barrier Function constraints to provide guarantees of stability and safety through Linear Programming problem. The core of our proposed method consists of a convex min-max formulation that synthesizes an output-feedback controller, based on relative displacement measurements with respect to a set of landmarks. The optimization problem is formulated using piece-wise linear Control Lyapunov Function and Control Barrier Function constraints, to provide guarantees of stability and safety. The inner maximization problem ensures that these constraints are met by all the points in each cell, while the outer minimization problem balances the different constraints to optimize robustness. We convert this min-max optimization problem to a regular Linear Programming problem, by forming the dual of the inner maximization problem. Although in principle our approach is applicable to any system with piecewise linear dynamics, in this paper as a proof of concept, we apply it to first and second order integrators. We show through simulations that the resulting controllers are robust to significant deformations of the environment.
 \
 \
