@@ -1,6 +1,6 @@
 
 This repository includes the codes, posters and presentations of my publications. 
-\
+
 ## Robust Sample-Based Output-Feedback  Path Planning (IROS2021)
 We propose a novel approach for sampling-based and control-based motion planning that combines a representation of the environment obtained via modified version of optimal Rapidly-exploring Random Trees (RRT*), with landmark-based output-feedback controllers obtained via Control Lyapunov Functions, Control Barrier Functions, and robust Linear Programming. Our solution inherits many benefits of RRT*-like algorithms, such as the ability to implicitly handle arbitrarily complex obstacles, and asymptotic optimality. Additionally, it extends planning beyond the discrete nominal paths, as feedback controllers can correct deviations from such paths, and are robust to discrepancies between the map used for planning and the real environment.
 We test our algorithms first in simulations and then in experiments, testing the robustness of the approach to practical conditions, such as deformations of the environment, mismatches in the dynamical model of the robot, and measurements acquired with a camera with a limited field of view.
